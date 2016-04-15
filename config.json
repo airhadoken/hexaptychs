@@ -1,0 +1,35 @@
+{
+    "TWITTER_NOTES": "The values below are retrieved from Twitter's API app interface.  When you create a Twitter API app, you will",
+    "TWITTER_NOTES": " receive the consumer key and consumer secret as part of the app.  You will need to separately",
+    "TWITTER_NOTES": " create the access token, which will give you the values for access_token and access_token_secret.",
+    "TWITTER_NOTES": " Paste the values for each of these inside the quotes below, next to the corresponding key.",
+
+    "consumer_key": "",
+    "consumer_secret": "",
+    "access_token": "",
+    "access_token_secret": "",
+
+    "FLICKR_NOTES": "Flickr uses Oauth like Twitter, but it supports app-only access for the endpoints we want,",
+    "FLICKR_NOTES": " so only the consumer key/secret items are needed (of course, the values will *not* be the",
+    "FLICKR_NOTES": " same as the ones used for Twitter auth)",
+    "flickr_consumer_key": "",
+    "flickr_consumer_secret": "",
+
+    "LICENSE_NOTES": "The flickr license IDs as currently understood that we'll allow:",
+    "LICENSE_NOTES": " 4: CC-BY",
+    "LICENSE_NOTES": " 2: CC-NC",
+    "LICENSE_NOTES": " 7: No known restrictions",
+    "LICENSE_NOTES": " 8: US Government works",
+    "LICENSE_NOTES": " 9: Public Domain Dedication/CC0",
+    "LICENSE_NOTES": " 10: Public Domain Mark",
+    "LICENSE_NOTES": "Others you may want to enable, but require you to declare licenses:",
+    "LICENSE_NOTES": " 5: CC-SA",
+    "LICENSE_NOTES": " 1: CC-NC-SA",
+    "flickr_licenses": "4,2,7,8,9,10",
+
+    "INTERVAL_NOTES": "If you'd like to change the frequency of posting from the default 24 hours (86400000ms), ",
+    "INTERVAL_NOTES": " set it with the interval key here.  Note that 120000(ms) is the minimum that will be accepted",
+    "INTERVAL_NOTES": " by the Twitter API.",
+    "interval": 86400000
+
+}

@@ -1,0 +1,20 @@
+{
+  "name": "hextychs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node app.js -once"
+  },
+  "version": "1.0.0",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "express": "*",
+    "flickrapi": "^0.4.2",
+    "mongodb": "*",
+    "q": "^1.4.1",
+    "request": "*",
+    "twit": "^2.1.1"
+  }
+}
