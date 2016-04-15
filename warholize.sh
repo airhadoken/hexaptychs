@@ -83,5 +83,4 @@ convert $1 -resize 512x512 -colorspace sRGB \
            -delete 0-1 +append \
            -crop 50%x100% \
            -append \
-           -resize 768x512 \
            converted.jpg
