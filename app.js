@@ -67,7 +67,7 @@ function doLoop() {
       license: config.flickr_licenses 
     }); 
   }).then(function(data) { 
-    var deferred = Promise.defer();
+    var deferred = Q.defer();
     var photos = data.photos.photo;
 
     function nextPhoto() {
