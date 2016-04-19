@@ -114,7 +114,10 @@ function doLoop() {
     var data = pack[0];
     return QT.ninvoke("post", 'statuses/update', { 
       status: ["Untitled",
-              photo_data.title ? " [" + photo_data.title.replace(/^(.{10}[^ ]*) .*$/, "$1").replace(/\W+$/, "") + "]" : "",
+              photo_data.title ? " [" + photo_data.title.
+                                        replace(/^(.{10}[^ ]*) .*$/, "$1")
+                                        .replace(/[ .,/?'";:\]\[{}()*&^%$#@!-=+|\\`~]+$/, "") + "]" 
+                               : "",
               ", ",
               new Date().getFullYear(),
               "\n(Source: https://www.flickr.com/photos/",
