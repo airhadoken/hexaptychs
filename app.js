@@ -116,7 +116,7 @@ function doLoop() {
       status: ["Untitled",
               photo_data.title ? " [" + photo_data.title.
                                         replace(/^(.{10}[^ ]*) .*$/, "$1")
-                                        .replace(/[ .,/?'";:\]\[{}()*&^%$#@!-=+|\\`~]+$/, "") + "]" 
+                                        .replace(/[- .,/?'";:\]\[{}()*&^%$#@!=+|\\`~]+$/, "") + "]" 
                                : "",
               ", ",
               new Date().getFullYear(),
